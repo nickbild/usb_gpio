@@ -43,6 +43,28 @@ Flipping a pin between high and low voltages in a tight loop:
 
 ## Media
 
+![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/front2_sm.jpg)
+
+Blinking an LED with USBgpio:
+
+![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/blink_sm.jpg)
+
+The back of unit:
+
+![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/rear_sm.jpg)
+
+The wires that run from the header to the Arduino:
+
+![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/wires_sm.jpg)
+
+The Arduino with a header designed to fit in the case:
+
+![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/arduino_sm.jpg)
+
+Testing the device:
+
+![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/testing_sm.jpg)
+
 ## Bill of Materials
 
 - 1 x Arduino Nano 33 IoT
