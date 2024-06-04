@@ -33,7 +33,7 @@ while True:
 
 Inside the device's case, there is an Arduino Nano 33 IoT. Header pins on the device are internally connected to pins on the Arduino. This microcontroller development board runs [firmware](https://github.com/nickbild/usb_gpio/blob/main/usb_gpio_arduino/usb_gpio_arduino.ino) that listens for serial data coming in over USB, as triggered by the Python program. The firmware then decodes the data it receives and takes the requested action, whether it be to set a pin direction or voltage level. If a pin is being read, the Arduino also sends that value back to the Python program via the serial connection.
 
-USBgpio is a quick and easy way to do some prototyping without getting out your development boards and setting them up. It is pretty fast at ~54 microseconds to change a pin state, so it will work for many use cases. However, an Arduino UNO, for example, is about 16 times faster, so for high-speed applications, USBgpio would not be appropriate. That is not the intended use case for this device, however — USBgpio is meant for convenience, not squeezing out the last drop of performance.
+USBgpio is a quick and easy way to do some prototyping without getting out your development boards and setting them up. It is pretty fast at ~54 microseconds to change a pin state, so it will work for many use cases. However, an Arduino UNO, for example, is about 16 times faster, so for high-speed applications, USBgpio would not be appropriate. That is not the intended use case for this device, however — USBgpio is meant for convenience, not squeezing out every last drop of performance.
 
 Flipping a pin between high and low voltages in a tight loop:
 
