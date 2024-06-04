@@ -28,7 +28,7 @@ void loop() {
       pinMode(11, INPUT);
     }
 
-    if (data == 'k') {
+    else if (data == 'k') {
       pinMode(2, OUTPUT);
     } else if (data == 'l') {
       pinMode(3, OUTPUT);
@@ -50,7 +50,7 @@ void loop() {
       pinMode(11, OUTPUT);
     }
 
-    if (data == 'u') {
+    else if (data == 'u') {
       digitalWrite(2, HIGH);
     } else if (data == 'v') {
       digitalWrite(3, HIGH);
@@ -72,7 +72,7 @@ void loop() {
       digitalWrite(11, HIGH);
     }
 
-    if (data == '4') {
+    else if (data == '4') {
       digitalWrite(2, LOW);
     } else if (data == '5') {
       digitalWrite(3, LOW);
@@ -94,7 +94,7 @@ void loop() {
       digitalWrite(11, LOW);
     }
 
-    if (data == '%') {
+    else if (data == '%') {
       Serial.write(digitalRead(2));
     } else if (data == '^') {
       Serial.write(digitalRead(3));
