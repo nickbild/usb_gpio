@@ -49,7 +49,7 @@ Blinking an LED with USBgpio:
 
 ![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/blink_sm.jpg)
 
-The back of unit:
+The back of the unit:
 
 ![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/rear_sm.jpg)
 
