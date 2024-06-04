@@ -2,6 +2,8 @@
 
 Add Python programmable GPIO pins to any computer with USBgpio.
 
+![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/front1_sm.jpg)
+
 ## How It Works
 
 USBgpio is a physical device with 12 header pins (10 GPIO, 3.3V, GND) that hooks up to any modern computer via a USB port. There is also an accompanying [Python library](https://github.com/nickbild/usb_gpio/blob/main/usbgpio.py) that controls the GPIO pins with simple commands.
