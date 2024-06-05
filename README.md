@@ -43,6 +43,8 @@ This trace shows a pin flipping between high and low voltages in a tight loop:
 
 ## Media
 
+[Demo Video](https://www.youtube.com/watch?v=I5nCYR48eAI)
+
 ![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/front2_sm.jpg)
 
 Blinking an LED with USBgpio:
