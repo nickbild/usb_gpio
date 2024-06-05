@@ -1,5 +1,7 @@
 # USBgpio
 
+![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/logo_sm.jpg)
+
 Add Python programmable GPIO pins to any computer with USBgpio.
 
 ![](https://raw.githubusercontent.com/nickbild/usb_gpio/main/media/front1_sm.jpg)
